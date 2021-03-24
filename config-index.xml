@@ -23,6 +23,7 @@
 		<item id="sensei">Sensei</item>
 		<item id="sensei">Sensei LMS</item>
 		<item id="subscriptio">Subscriptio</item>
+		<item id="siteorigin">Page Builder by SiteOrigin</item>
 		<item id="sitepress-multilingual-cms" override_local="true">WPML Multilingual CMS</item>
 		<item id="the-events-calendar" override_local="true">The Events Calendar</item>
 		<item id="events-filterbar" override_local="true">The Events Calendar: Filter Bar</item>

@@ -1,0 +1,96 @@
+<wpml-config>
+  <siteorigin-widgets>
+    <widget name="WP_Widget_Archives">
+      <fields>
+        <field type="Archive title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Media_Audio">
+      <fields>
+        <field type="Audio title">title</field>
+        <field type="Audio URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Calendar">
+      <fields>
+        <field type="Calendar title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Categories">
+      <fields>
+        <field type="Categories title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Custom_HTML">
+      <fields>
+        <field type="Custom HTML title">title</field>
+        <field type="Custom HTML content" editor_type="AREA">content</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Media_Gallery">
+      <fields>
+        <field type="Gallery title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Media_Image">
+      <fields>
+        <field type="Image title">title</field>
+        <field type="Image caption">caption</field>
+        <field type="Image URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Meta">
+      <fields>
+        <field type="Meta title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Text_Icl">
+      <fields>
+        <field type="Title">title</field>
+        <field type="Text" editor_type="AREA">text</field>
+      </fields>
+    </widget>
+    <widget name="WP_Nav_Menu_Widget">
+      <fields>
+        <field type="Menu title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Pages">
+      <fields>
+        <field type="Pages title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_RSS">
+      <fields>
+        <field type="RSS title">title</field>
+        <field type="RSS URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Recent_Comments">
+      <fields>
+        <field type="Comments title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Recent_Posts">
+      <fields>
+        <field type="Posts title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Search">
+      <fields>
+        <field type="Search title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Tag_Cloud">
+      <fields>
+        <field type="Tag cloud title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Text">
+      <fields>
+        <field type="Title">title</field>
+        <field type="Text" editor_type="AREA">text</field>
+      </fields>
+    </widget>
+  </siteorigin-widgets>
+</wpml-config>

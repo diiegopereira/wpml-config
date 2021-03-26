@@ -92,5 +92,76 @@
         <field type="Text" editor_type="AREA">text</field>
       </fields>
     </widget>
+    <widget name="SiteOrigin_Widget_Button_Widget">
+      <fields>
+        <field type="Button text">text</field>
+        <field type="Button URL" editor_type="LINK">url</field>
+        <field type="Button title">attributes>title</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Widgets_ContactForm_Widget">
+      <fields>
+        <field type="Contact form title">title</field>
+        <field type="Contact form default subject">settings>default_subject</field>
+        <field type="Contact form subject prefix">settings>subject_prefix</field>
+        <field type="Contact form success message">settings>success_message</field>
+        <field type="Contact form submit text">settings>submit_text</field>
+      </fields>
+      <fields-in-item items_of="fields">
+        <field type="Contact form field label">label</field>
+        <field type="Contact form field description">description</field>
+        <field type="Contact form field missing">required>missing_message</field>
+      </fields-in-item>
+    </widget>
+    <widget name="SiteOrigin_Widget_Editor_Widget">
+      <fields>
+        <field type="Editor title">title</field>
+        <field type="Editor content" editor_type="VISUAL">text</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Widget_Headline_Widget">
+      <fields>
+        <field type="Headline text">headline>text</field>
+        <field type="Headline URL" editor_type="LINK">headline>destination_url</field>
+        <field type="Sub headline text">sub_headline>text</field>
+        <field type="Sub headline URL" editor_type="LINK">sub_headline>destination_url</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Widget_Hero_Widget">
+      <fields-in-item items_of="frames">
+        <field type="Hero content" editor_type="VISUAL">content</field>
+        <field type="Hero content" editor_type="VISUAL">content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="SiteOrigin_Widget_Image_Widget">
+      <fields>
+        <field type="Image title">title</field>
+        <field type="Image alt">alt</field>
+        <field type="Image URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Widget_Features_Widget">
+      <fields-in-item items_of="features">
+        <field type="Feature title">title</field>
+        <field type="Feature text" editor_type="VISUAL">text</field>
+        <field type="Feature icon title">icon_title</field>
+        <field type="Feature more text">more_text</field>
+        <field type="Feature more URL" editor_type="LINK">more_url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="SiteOrigin_Widget_PostCarousel_Widget">
+      <fields>
+        <field type="Carousel title">title</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Widgets_Testimonials_Widget">
+      <fields>
+        <field type="Testimonials title">title</field>
+      </fields>
+      <fields-in-item items_of="testimonials">
+        <field type="Testimonial text" editor_type="VISUAL">text</field>
+        <field type="Testimonial URL" editor_type="LINK">url</field>
+      </fields-in-item>
+    </widget>
   </siteorigin-widgets>
 </wpml-config>

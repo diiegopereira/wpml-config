@@ -1,4 +1,5 @@
 <wpml-config>
+  <built-with-page-builder>/\[siteorigin_widget.*\]/</built-with-page-builder>
   <siteorigin-widgets>
     <widget name="WP_Widget_Archives">
       <fields>

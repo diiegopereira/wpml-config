@@ -4,7 +4,7 @@
     <gutenberg-block type="sowb/widget-block" translate="1">
       <key name="widgetData">
         <key name="title" />
-        <key name="^text$" />
+        <key name="text" />
         <key name="alt" />
         <key name="url" />
         <key name="content" />
@@ -62,7 +62,7 @@
         <key name="widgets">
           <key name="*">
             <key name="title" />
-            <key name="^text$" />
+            <key name="text" />
             <key name="alt" />
             <key name="url" />
             <key name="content" />

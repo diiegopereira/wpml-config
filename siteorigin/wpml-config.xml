@@ -1,5 +1,123 @@
 <wpml-config>
   <built-with-page-builder>/\[siteorigin_widget.*\]/</built-with-page-builder>
+  <gutenberg-blocks>
+    <gutenberg-block type="sowb/widget-block" translate="1">
+      <key name="widgetData">
+        <key name="title" />
+        <key name="text" />
+        <key name="alt" />
+        <key name="url" />
+        <key name="content" />
+        <key name="caption" />
+        <key name="attributes">
+          <key name="title" />
+        </key>
+        <key name="settings">
+          <key name="default_subject" />
+          <key name="subject_prefix" />
+          <key name="success_message" />
+          <key name="submit_text" />
+        </key>
+        <key name="fields">
+          <key name="*">
+            <key name="label" />
+            <key name="description" />
+            <key name="required">
+              <key name="missing_message" />
+            </key>
+          </key>
+        </key>
+        <key name="headline">
+          <key name="text" />
+          <key name="destination_url" />
+        </key>
+        <key name="sub_headline">
+          <key name="text" />
+          <key name="destination_url" />
+        </key>
+        <key name="testimonials">
+          <key name="*">
+            <key name="text" />
+            <key name="url" />
+          </key>
+        </key>
+        <key name="frames">
+          <key name="*">
+            <key name="content" />
+          </key>
+        </key>
+        <key name="features">
+          <key name="*">
+            <key name="title" />
+            <key name="text" />
+            <key name="icon_title" />
+            <key name="more_text" />
+            <key name="more_url" />
+          </key>
+        </key>
+      </key>
+    </gutenberg-block>
+    <gutenberg-block type="siteorigin-panels/layout-block" translate="1">
+      <key name="panelsData">
+        <key name="widgets">
+          <key name="*">
+            <key name="title" />
+            <key name="text" />
+            <key name="alt" />
+            <key name="url" />
+            <key name="content" />
+            <key name="caption" />
+            <key name="attributes">
+              <key name="title" />
+            </key>
+            <key name="settings">
+              <key name="default_subject" />
+              <key name="subject_prefix" />
+              <key name="success_message" />
+              <key name="submit_text" />
+            </key>
+            <key name="fields">
+              <key name="*">
+                <key name="label" />
+                <key name="description" />
+                <key name="required">
+                  <key name="missing_message" />
+                </key>
+              </key>
+            </key>
+            <key name="headline">
+              <key name="text" />
+              <key name="destination_url" />
+            </key>
+            <key name="sub_headline">
+              <key name="text" />
+              <key name="destination_url" />
+            </key>
+            <key name="testimonials">
+              <key name="*">
+                <key name="text" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="frames">
+              <key name="*">
+                <key name="content" />
+              </key>
+            </key>
+            <key name="features">
+              <key name="*">
+                <key name="title" />
+                <key name="text" />
+                <key name="icon_title" />
+                <key name="more_text" />
+                <key name="more_url" />
+              </key>
+            </key>
+          </key>
+        </key>
+      </key>
+    </gutenberg-block>
+  </gutenberg-blocks>
   <siteorigin-widgets>
     <widget name="WP_Widget_Archives">
       <fields>
@@ -130,7 +248,6 @@
     </widget>
     <widget name="SiteOrigin_Widget_Hero_Widget">
       <fields-in-item items_of="frames">
-        <field type="Hero content" editor_type="VISUAL">content</field>
         <field type="Hero content" editor_type="VISUAL">content</field>
       </fields-in-item>
     </widget>
